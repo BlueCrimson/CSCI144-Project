@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kevin/Desktop/stocks/StockProcessor.cpp
+StockProcessor.h
+/Users/kevin/Desktop/stocks/StockProcessor.h
+unistd.h
+-
+pthread.h
+-
+
+/Users/kevin/Desktop/stocks/StockProcessor.h
+iostream
+-
+pthread.h
+-
+
+/Users/kevin/Desktop/stocks/main.cpp
+StockProcessor.h
+/Users/kevin/Desktop/stocks/StockProcessor.h
+stock.h
+/Users/kevin/Desktop/stocks/stock.h
+
+/Users/kevin/Desktop/stocks/stock.cpp
+stdio.h
+-
+string
+-
+fstream
+-
+stock.h
+/Users/kevin/Desktop/stocks/stock.h
+iostream
+-
+
+/Users/kevin/Desktop/stocks/stock.h
+iostream
+-
+
